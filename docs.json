@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mintlify Starter Kit",
+  "name": "CrypTech Intelligence",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#FF5700",
+    "light": "#FF7A33",
+    "dark": "#CC4600"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -14,21 +14,40 @@
         "group": "Getting Started",
         "pages": [
           "index",
-          "quickstart"
+          "quickstart",
+          "authentication",
+          "errors-and-limits"
+        ]
+      },
+      {
+        "group": "Core APIs",
+        "pages": [
+          "api-reference/analyze-token",
+          "api-reference/alpha-radar",
+          "api-reference/market-regime",
+          "api-reference/market-pulse"
+        ]
+      },
+      {
+        "group": "Production Guides",
+        "pages": [
+          "guides/telegram-scam-bot",
+          "guides/amm-exit-calculator"
+        ]
+      },
+      {
+        "group": "AI & MCP Integration",
+        "pages": [
+          "ai-mcp/claude-cursor-mcp"
         ]
       }
     ],
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "AI & MCP",
+          "icon": "robot",
+          "href": "/ai-mcp/claude-cursor-mcp"
         }
       ]
     }
@@ -40,14 +59,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@mintlify.com"
+        "href": "https://app.cryptechtoday.com",
+        "label": "Web App"
+      },
+      {
+        "href": "mailto:contactus@cryptechtoday.com?subject=CrypTech%20API%20Key%20Request",
+        "label": "Request API Key"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://app.mintlify.com"
+      "label": "Launch App",
+      "href": "https://app.cryptechtoday.com"
     }
   },
   "contextual": {
@@ -64,9 +87,22 @@
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/cryptechtoday",
+      "github": "https://github.com/cryptech-code/cryptech"
     }
+  },
+  "description": "Institutional token due diligence, smart contract honeypot audits, AMM exit liquidity simulation, and quantitative market intelligence APIs.",
+  "api": {},
+  "appearance": {
+    "default": "dark"
+  },
+  "background": {
+    "color": {
+      "light": "#FBFBFC",
+      "dark": "#0B0C10"
+    }
+  },
+  "fonts": {
+    "family": "Inter"
   }
 }
