@@ -22,7 +22,6 @@
       {
         "group": "Core APIs",
         "pages": [
-          "api-reference/analyze-token",
           "api-reference/alpha-radar",
           "api-reference/market-regime",
           "api-reference/market-pulse"
@@ -31,7 +30,6 @@
       {
         "group": "Production Guides",
         "pages": [
-          "guides/telegram-scam-bot",
           "guides/amm-exit-calculator"
         ]
       },
@@ -44,6 +42,16 @@
     ],
     "global": {
       "anchors": [
+        {
+          "anchor": "API Reference",
+          "icon": "code",
+          "href": "/api-reference/analyze-token"
+        },
+        {
+          "anchor": "Guides",
+          "icon": "book-open",
+          "href": "/guides/telegram-scam-bot"
+        },
         {
           "anchor": "AI & MCP",
           "icon": "robot",
